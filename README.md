@@ -5,17 +5,18 @@ This project is implemented using `C` and Parsing of HTTP referred from <a href 
 
 ## Index
 
-- [Project Theory](https://github.com/varundeepsaini/MultiThreadedProxyServerClient#project-theory)
-- [How to Run](https://github.com/varundeepsaini/MultiThreadedProxyServerClient#How-to-Run)
+- [Project Theory](https://github.com/devansh-dek/Multi-Threaded-Proxy-Server#project-theory)
+- [How to Run](https://github.com/devansh-dek/Multi-Threaded-Proxy-Server#How-to-Run)
 
 ## Project Theory
 
-[[Back to top]](https://github.com/varundeepsaini/MultiThreadedProxyServerClient#index)
+[[Back to top]](https://github.com/devansh-dek/Multi-Threaded-Proxy-Server#index)
+
 
 ##### Introduction
 
 ##### Basic Working Flow of the Proxy Server:
-![](https://github.com/varundeepsaini/MultiThreadedProxyServerClient/blob/main/pics/UML.JPG)
+![](https://github.com/devansh-dek/Multi-Threaded-Proxy-Server/blob/main/pics/UML.JPG)
 
 ##### How did we implement Multi-threading?
 - Used Semaphore instead of Condition Variables and pthread_join() and pthread_exit() function. 
@@ -52,7 +53,7 @@ This project is implemented using `C` and Parsing of HTTP referred from <a href 
 ## How to Run
 
 ```bash
-$ git clone https://github.com/varundeepsaini/MultiThreadedProxyServerClient.git
+$ git clone https://github.com/devansh-dek/Multi-Threaded-Proxy-Server
 $ cd MultiThreadedProxyServerClient
 $ make all
 $ ./proxy <port no.>
